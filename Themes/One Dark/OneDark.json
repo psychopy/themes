@@ -1,0 +1,150 @@
+{
+  "base": {
+    "fg": "#747369",
+    "bg": "#393939",
+    "font": "Consolas"
+  },
+  "margin": {
+    "fg": "#ABB2BF",
+    "bg": "#282C34",
+    "font": ""
+  },
+  "indent": {
+    "fg": "#ABB2BF",
+    "bg": "#515151",
+    "font": ""
+  },
+  "brace": {
+    "fg": "#FFFFFF",
+    "bg": "#f2777a",
+    "font": ""
+  },
+  "operator": {
+    "fg": "#ABB2BF",
+    "bg": "",
+    "font": ""
+  },
+  "keyword": {
+    "fg": "#C678DD",
+    "bg": "",
+    "font": ""
+  },
+  "keyword2": {
+    "fg": "#C678DD",
+    "bg": "",
+    "font": ""
+  },
+  "controlchar": {
+    "fg": "#",
+    "bg": "",
+    "font": ""
+  },
+  "id": {
+    "fg": "#E06C75",
+    "bg": "",
+    "font": ""
+  },
+  "num": {
+    "fg": "#D19A66",
+    "bg": "",
+    "font": ""
+  },
+  "char": {
+    "fg": "#98C379",
+    "bg": "",
+    "font": ""
+  },
+  "str": {
+    "fg": "#98C379",
+    "bg": "",
+    "font": ""
+  },
+  "openstr": {
+    "fg": "#FFFFFF",
+    "bg": "#f2777a",
+    "font": ""
+  },
+  "infix": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "openinfix": {
+    "fg": "#FFFFFF",
+    "bg": "#f2777a",
+    "font": ""
+  },
+  "decorator": {
+    "fg": "#",
+    "bg": "",
+    "font": ""
+  },
+  "class": {
+    "fg": "#E5C07B",
+    "bg": "",
+    "font": ""
+  },
+  "def": {
+    "fg": "#61AFEF",
+    "bg": "",
+    "font": ""
+  },
+  "comment": {
+    "fg": "#5C6370",
+    "bg": "",
+    "font": "Consolas,italic"
+  },
+  "commentblock": {
+    "fg": "#",
+    "bg": "",
+    "font": ""
+  },
+  "commentkw": {
+    "fg": "#",
+    "bg": "",
+    "font": ""
+  },
+  "commenterror": {
+    "fg": "#",
+    "bg": "",
+    "font": ""
+  },
+  "documentation": {
+    "fg": "#D19A66",
+    "bg": "",
+    "font": ""
+  },
+  "documentation2": {
+    "fg": "#D19A66",
+    "bg": "",
+    "font": ""
+  },
+  "whitespace": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "python": {
+    "def": {
+      "fg": "#56B6C2",
+      "bg": "",
+      "font": ""
+    },
+    "keyword": {
+      "fg": "#C678DD",
+      "bg": "",
+      "font": ""
+    },
+    "class": {
+      "fg": "#E5C07B",
+      "bg": "",
+      "font": ""
+    }
+  },
+  "c++": {
+
+  },
+  "r": {
+
+  }
+}

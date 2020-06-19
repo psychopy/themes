@@ -1,0 +1,13 @@
+'Terminal', 
+'Fixedsys',
+'Courier',
+'Consolas',
+'Courier New',
+'Lucida Console',
+'MS Gothic',
+'@MS Gothic',
+'NSimSun',
+'@NSimSun',
+'SimSun-ExtB',
+'@SimSun-ExtB',
+'Lucida Sans Typewriter'

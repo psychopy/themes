@@ -1,0 +1,136 @@
+{
+  "base": {
+    "fg": "#000000",
+    "bg": "#f2f2f3",
+    "font": "Consolas"
+  },
+  "margin": {
+    "fg": "#FFFFFF",
+    "bg": "#f4794a",
+    "font": ""
+  },
+  "indent": {
+    "fg": "#FFFFFF",
+    "bg": "#FFFFFF",
+    "font": ""
+  },
+  "brace": {
+    "fg": "",
+    "bg": "#FFFFFF",
+    "font": ""
+  },
+  "operator": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "keyword": {
+    "fg": "#f4794a",
+    "bg": "",
+    "font": "Consolas,bold"
+  },
+  "keyword2": {
+    "fg": "#f4794a",
+    "bg": "",
+    "font": "Consolas,italic,bold"
+  },
+  "controlchar": {
+    "fg": "#f4794a",
+    "bg": "",
+    "font": ""
+  },
+  "id": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "num": {
+    "fg": "#f4794a",
+    "bg": "",
+    "font": ""
+  },
+  "char": {
+    "fg": "#f4794a",
+    "bg": "",
+    "font": ""
+  },
+  "str": {
+    "fg": "#f4794a",
+    "bg": "",
+    "font": ""
+  },
+  "openstr": {
+    "fg": "#f4794a",
+    "bg": "#FFFFFF",
+    "font": ""
+  },
+  "infix": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "openinfix": {
+    "fg": "",
+    "bg": "#FFFFFF",
+    "font": ""
+  },
+  "decorator": {
+    "fg": "",
+    "bg": "",
+    "font": "Consolas,bold"
+  },
+  "class": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "def": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "comment": {
+    "fg": "#969799",
+    "bg": "",
+    "font": ""
+  },
+  "commentblock": {
+    "fg": "#969799",
+    "bg": "#FFFFFF",
+    "font": ""
+  },
+  "commentkw": {
+    "fg": "#969799",
+    "bg": "",
+    "font": ""
+  },
+  "commenterror": {
+    "fg": "#969799",
+    "bg": "",
+    "font": ""
+  },
+  "documentation": {
+    "fg": "#969799",
+    "bg": "",
+    "font": ""
+  },
+  "documentation2": {
+    "fg": "#969799",
+    "bg": "",
+    "font": ""
+  },
+  "whitespace": {
+    "fg": "#FFFFFF",
+    "bg": "",
+    "font": ""
+  },
+  "python": {
+
+  },
+  "c++": {
+
+  },
+  "r": {
+
+  }
+}
