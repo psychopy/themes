@@ -34,9 +34,9 @@ Protecting your theme is relatively straightforward! When you submit a pull requ
 While a `README` file isn't always necessary for a font, it is a great opportunity to introduce users to your theme and give then a walkthrough of what everything looks like. Using image embedding you can even include screenshots to give a really good idea. If you don't feel your theme needs any introduction, however, this file can be blank. It just has to exist!
 
 ### Creating the `.json` file or files
-Each theme in a set is specified by a `.json` file, with the name of the theme in `CamelCase` (no spaces, first letter of each word capitalised). The `.json` file is structured such that each object type is a key/value pair, where the value is three further key/value pairs called `fg`, `bg` and `font`. These specify the foreground colour, background colour and font style respectively.
+Each theme in a set is specified by a `.json` file, with the name of the theme in `CamelCase` (no spaces, first letter of each word capitalised). The `.json` file is structured such that each object type is a key/value pair, where the value is three further key/value pairs called `fg`, `bg` and `font`. These specify the foreground colour, background colour and font style respectively. The one exception to the rule is `app`, which is just a single string: `"light"` or `"dark"`. This determines how the rest of the Psychopy interface, outside of the code editor, should be styled: In light mode or dark mode.
 
-All of these files will begin with a specification for `base` text - this is how text which is not recognised as any other type is styled. For example, the first key/value pair in the `PsychopyLight` theme is:
+All theme files will begin, after `app`, with a specification for `base` text - this is how text which is not recognised as any other type is styled. For example, the first key/value pair in the `PsychopyLight` theme is:
 ```
   "base": {
     "fg": "#000000",
@@ -46,6 +46,8 @@ All of these files will begin with a specification for `base` text - this is how
 ```
 Meaning that the base text will be black, on a white background, in the font Consolas with no additional styling. This `base` key is the minimum required for a theme to be read by Psychopy, in the absence of any other keys it will simply style all text as `base`. You can use the following keys to style further object types:
 - `margin`: The margin to the left of the code editor
+- `caret`: The caret/cursor
+- `select`: Selected text
 - `indent`: Vertical lines indicating the horizontal location of each indent
 - `brace`: Unclosed braces
 - `operator`: Mathematical operators such as =, + or *

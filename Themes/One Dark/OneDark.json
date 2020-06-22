@@ -1,4 +1,5 @@
 {
+  "app": "dark",
   "base": {
     "fg": "#747369",
     "bg": "#393939",
@@ -6,6 +7,16 @@
   },
   "margin": {
     "fg": "#ABB2BF",
+    "bg": "#282C34",
+    "font": ""
+  },
+  "caret": {
+    "fg": "",
+    "bg": "",
+    "font": "bold"
+  },
+  "select": {
+    "fg": "#FFFFFF",
     "bg": "#282C34",
     "font": ""
   },

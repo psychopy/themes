@@ -1,4 +1,5 @@
 {
+  "app": "dark",
   "base": {
     "fg": "#FFFFFF",
     "bg": "#242425",
@@ -8,6 +9,16 @@
     "fg": "#FFFFFF",
     "bg": "#f4794a",
     "font": ""
+  },
+  "caret": {
+  	"fg": "#f4794a",
+  	"bg": "#121213",
+  	"font": "bold"
+  },
+  "select": {
+  	"fg": "",
+  	"bg": "#969799",
+  	"font": ""
   },
   "indent": {
     "fg": "#000000",
