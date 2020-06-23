@@ -1,14 +1,14 @@
 {
-  "app": "dark",
+  "app": "light",
   "icons": "modern",
   "base": {
-    "fg": "#747369",
-    "bg": "#393939",
+    "fg": "#000000",
+    "bg": "#FFFFFF",
     "font": "Consolas"
   },
   "margin": {
-    "fg": "#ABB2BF",
-    "bg": "#282C34",
+    "fg": "",
+    "bg": "#CDCDCD",
     "font": ""
   },
   "caret": {
@@ -18,62 +18,62 @@
   },
   "select": {
     "fg": "#FFFFFF",
-    "bg": "#282C34",
+    "bg": "#75757D",
     "font": ""
   },
   "indent": {
-    "fg": "#ABB2BF",
-    "bg": "#515151",
+    "fg": "",
+    "bg": "",
     "font": ""
   },
   "brace": {
-    "fg": "#FFFFFF",
-    "bg": "#f2777a",
+    "fg": "",
+    "bg": "",
     "font": ""
   },
   "operator": {
-    "fg": "#ABB2BF",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "keyword": {
-    "fg": "#C678DD",
+    "fg": "#0000EE",
     "bg": "",
     "font": ""
   },
   "keyword2": {
-    "fg": "#C678DD",
+    "fg": "#0000EE",
     "bg": "",
     "font": ""
   },
   "controlchar": {
-    "fg": "#",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "id": {
-    "fg": "#E06C75",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "num": {
-    "fg": "#D19A66",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "char": {
-    "fg": "#98C379",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "str": {
-    "fg": "#98C379",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "openstr": {
-    "fg": "#FFFFFF",
-    "bg": "#f2777a",
+    "fg": "",
+    "bg": "",
     "font": ""
   },
   "infix": {
@@ -82,52 +82,52 @@
     "font": ""
   },
   "openinfix": {
-    "fg": "#FFFFFF",
-    "bg": "#f2777a",
+    "fg": "",
+    "bg": "",
     "font": ""
   },
   "decorator": {
-    "fg": "#",
+    "fg": "#0000EE",
     "bg": "",
     "font": ""
   },
   "class": {
-    "fg": "#E5C07B",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "def": {
-    "fg": "#61AFEF",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "comment": {
-    "fg": "#5C6370",
+    "fg": "#008000",
     "bg": "",
-    "font": "Consolas,italic"
+    "font": ""
   },
   "commentblock": {
-    "fg": "#",
+    "fg": "#008000",
     "bg": "",
     "font": ""
   },
   "commentkw": {
-    "fg": "#",
+    "fg": "#008000",
     "bg": "",
     "font": ""
   },
   "commenterror": {
-    "fg": "#",
+    "fg": "#008000",
     "bg": "",
     "font": ""
   },
   "documentation": {
-    "fg": "#D19A66",
+    "fg": "#4C4C4C",
     "bg": "",
     "font": ""
   },
   "documentation2": {
-    "fg": "#D19A66",
+    "fg": "#4C4C4C",
     "bg": "",
     "font": ""
   },
@@ -137,21 +137,7 @@
     "font": ""
   },
   "python": {
-    "def": {
-      "fg": "#56B6C2",
-      "bg": "",
-      "font": ""
-    },
-    "keyword": {
-      "fg": "#C678DD",
-      "bg": "",
-      "font": ""
-    },
-    "class": {
-      "fg": "#E5C07B",
-      "bg": "",
-      "font": ""
-    }
+
   },
   "c++": {
 

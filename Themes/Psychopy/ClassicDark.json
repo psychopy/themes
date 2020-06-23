@@ -1,80 +1,80 @@
 {
   "app": "dark",
-  "icons": "modern",
+  "icons": "classic",
   "base": {
-    "fg": "#747369",
-    "bg": "#393939",
+    "fg": "#FFFFFF",
+    "bg": "#66666E",
     "font": "Consolas"
   },
   "margin": {
-    "fg": "#ABB2BF",
-    "bg": "#282C34",
+    "fg": "#000000",
+    "bg": "#CDCDCD",
     "font": ""
   },
   "caret": {
     "fg": "",
     "bg": "",
-    "font": "bold"
+    "font": "Consolas,bold"
   },
   "select": {
     "fg": "#FFFFFF",
-    "bg": "#282C34",
+    "bg": "#CDCDCD",
     "font": ""
   },
   "indent": {
-    "fg": "#ABB2BF",
-    "bg": "#515151",
+    "fg": "#CDCDCD",
+    "bg": "",
     "font": ""
   },
   "brace": {
-    "fg": "#FFFFFF",
-    "bg": "#f2777a",
-    "font": ""
+    "fg": "",
+    "bg": "",
+    "font": "Consolas,bold"
   },
   "operator": {
-    "fg": "#ABB2BF",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "keyword": {
-    "fg": "#C678DD",
+    "fg": "#AAAAFF",
     "bg": "",
-    "font": ""
+    "font": "Consolas,bold"
   },
   "keyword2": {
-    "fg": "#C678DD",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "controlchar": {
-    "fg": "#",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "id": {
-    "fg": "#E06C75",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "num": {
-    "fg": "#D19A66",
+    "fg": "",
     "bg": "",
     "font": ""
   },
   "char": {
-    "fg": "#98C379",
+    "fg": "#CC66FF",
     "bg": "",
     "font": ""
   },
   "str": {
-    "fg": "#98C379",
+    "fg": "#CC66FF",
     "bg": "",
     "font": ""
   },
   "openstr": {
-    "fg": "#FFFFFF",
-    "bg": "#f2777a",
-    "font": ""
+    "fg": "#CC66FF",
+    "bg": "",
+    "font": "Consolas,bold"
   },
   "infix": {
     "fg": "",
@@ -82,76 +82,62 @@
     "font": ""
   },
   "openinfix": {
-    "fg": "#FFFFFF",
-    "bg": "#f2777a",
-    "font": ""
-  },
-  "decorator": {
-    "fg": "#",
-    "bg": "",
-    "font": ""
-  },
-  "class": {
-    "fg": "#E5C07B",
-    "bg": "",
-    "font": ""
-  },
-  "def": {
-    "fg": "#61AFEF",
-    "bg": "",
-    "font": ""
-  },
-  "comment": {
-    "fg": "#5C6370",
-    "bg": "",
-    "font": "Consolas,italic"
-  },
-  "commentblock": {
-    "fg": "#",
-    "bg": "",
-    "font": ""
-  },
-  "commentkw": {
-    "fg": "#",
-    "bg": "",
-    "font": ""
-  },
-  "commenterror": {
-    "fg": "#",
-    "bg": "",
-    "font": ""
-  },
-  "documentation": {
-    "fg": "#D19A66",
-    "bg": "",
-    "font": ""
-  },
-  "documentation2": {
-    "fg": "#D19A66",
-    "bg": "",
-    "font": ""
-  },
-  "whitespace": {
     "fg": "",
     "bg": "",
     "font": ""
   },
+  "decorator": {
+    "fg": "#CC66FF",
+    "bg": "",
+    "font": ""
+  },
+  "class": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "def": {
+    "fg": "",
+    "bg": "",
+    "font": ""
+  },
+  "comment": {
+    "fg": "#00FF00",
+    "bg": "",
+    "font": ""
+  },
+  "commentblock": {
+    "fg": "#00FF00",
+    "bg": "",
+    "font": ""
+  },
+  "commentkw": {
+    "fg": "#00FF00",
+    "bg": "",
+    "font": ""
+  },
+  "commenterror": {
+    "fg": "#00FF00",
+    "bg": "",
+    "font": ""
+  },
+  "documentation": {
+    "fg": "#CDCDCD",
+    "bg": "",
+    "font": ""
+  },
+  "documentation2": {
+    "fg": "#CDCDCD",
+    "bg": "",
+    "font": ""
+  },
+  "whitespace": {
+    "fg": "#CDCDCD",
+    "bg": "",
+    "font": ""
+  },
   "python": {
-    "def": {
-      "fg": "#56B6C2",
-      "bg": "",
-      "font": ""
-    },
-    "keyword": {
-      "fg": "#C678DD",
-      "bg": "",
-      "font": ""
-    },
-    "class": {
-      "fg": "#E5C07B",
-      "bg": "",
-      "font": ""
-    }
+
   },
   "c++": {
 
