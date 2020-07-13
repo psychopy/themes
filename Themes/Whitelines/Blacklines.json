@@ -1,6 +1,6 @@
 {
   "app": "dark",
-  "icons": "modern",
+  "icons": "dark",
   "base": {
     "fg": "#FFFFFF",
     "bg": "#242425",

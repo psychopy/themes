@@ -1,9 +1,9 @@
 {
   "app": "dark",
-  "icons": "modern",
+  "icons": "dark",
   "base": {
     "fg": "#F2F2F2",
-    "bg": "#66666E",
+    "bg": "#75757D",
     "font": "Consolas"
   },
   "margin": {
@@ -17,8 +17,8 @@
     "font": ""
   },
   "select": {
-    "fg": "#FFFFFF",
-    "bg": "#75757D",
+    "fg": "",
+    "bg": "#7C7C86",
     "font": ""
   },
   "indent": {
