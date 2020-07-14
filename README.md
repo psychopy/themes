@@ -79,7 +79,7 @@ Within each, you can apply styles by using the same three key/value pairs as in 
 "keyword2": {
     "fg": "#02A9EA",
     "bg": "",
-    "font": ["Inconsolata", italic","bold"]
+    "font": ["Inconsolata", "italic","bold"]
   }
 ```
 If `Inconsolata` is installed, text will display in this font, if not, it will default to `Consolas` on Windows, `Monaco` on Mac, or `Lucida Console` on Linux. If you would like any trait to use the same as in `base`, you can use empty double quotes (`""`) as shorthand. For example:
