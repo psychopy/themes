@@ -37,14 +37,15 @@ While a `README` file isn't always necessary for a font, it is a great opportuni
 Each theme in a set is specified by a `.json` file, with the name of the theme in `CamelCase` (no spaces, first letter of each word capitalised). The `.json` file is structured such that each object type is a key/value pair, where the value is three further key/value pairs called `fg`, `bg` and `font`. These specify the foreground colour, background colour and font style respectively. The two exceptions to the rule are `app` and `icons`, which determine how the rest of the Psychopy interface, outside of the code editor, should be styled: In light mode or dark mode and with classic or modern icons. Each is just a single string (`"light"` or `"dark"` for `app`, `"classic"` or `"modern"` for `icons`).
 
 All theme files will begin, after `app` and `icons`, with a specification for `base` text - this is how text which is not recognised as any other type is styled. For example, the first key/value pair in the `PsychopyLight` theme is:
-```
+```json
   "base": {
     "fg": "#000000",
     "bg": "#FFFFFF",
-    "font": "Consolas"
+    "font": ["Consolas", "Monaco", "Lucida Console"]
   }
 ```
-Meaning that the base text will be black, on a white background, in the font Consolas with no additional styling. This `base` key is the minimum required for a theme to be read by Psychopy, in the absence of any other keys it will simply style all text as `base`. You can use the following keys to style further object types:
+Meaning that the base text will be black, on a white background, in the font first available font in the list with no additional styling. This `base` key is the minimum required for a theme to be read by Psychopy, in the absence of any other keys it will simply style all text as `base`. You can use the following keys to style further object types:
+
 - `margin`: The margin to the left of the code editor
 - `caret`: The caret/cursor
 - `select`: Selected text
@@ -71,16 +72,18 @@ Meaning that the base text will be black, on a white background, in the font Con
 - `documentation`: Documentation comments, usually denoted by '''triple single quotes'''
 - `documentation2`: A higher level of documentation comments, usually denoted by """triple double quotes"""
 - `whitespace`: The dots appearing before a line of text, denoting how many spaces it is from the line's origin
-Within each, you can apply styles by using the same three key/value pairs as in `base`: `bg`, `fg` and `font`. `bg` and `fg` look for hexcode values denoting colour, `font` looks for a string with the name of a monospaced font. While you are welcome to install and use your own fonts, the fonts in `windowsBaseFonts.txt` are those which are installed on Windows by default, so these are advisable. You can also add the keywords `italic` or `bold` to the end of the font name, separated by commas, to specify additional styling. For example:
-```
+
+Within each, you can apply styles by using the same three key/value pairs as in `base`: `bg`, `fg` and `font`. `bg` and `fg` look for hexcode values denoting colour, `font` looks for a string with the name of a monospaced font.  The `font` parameter can also be a list, if it is then Psychopy will first look for the keywords `italic` or `bold` to determine font styling, then will accept the first font name in the list which is installed on your computer. All font lists will automatically have `["Consolas", "Monaco", "Lucida Console"]` added to the end, meaning that if no valid fonts are in those specified, Psychopy will use a font which is standard on Windows, Mac and Linux respectively. So for example, the following uses a non-standard font in bold and italic:
+
+```json
 "keyword2": {
     "fg": "#02A9EA",
     "bg": "",
-    "font": "Consolas,italic,bold"
+    "font": ["Inconsolata", italic","bold"]
   }
 ```
-If you would like any trait to use the same as in `base`, you can use empty double quotes (`""`) as shorthand. For example:
-```
+If `Inconsolata` is installed, text will display in this font, if not, it will default to `Consolas` on Windows, `Monaco` on Mac, or `Lucida Console` on Linux. If you would like any trait to use the same as in `base`, you can use empty double quotes (`""`) as shorthand. For example:
+```json
 "id": {
     "fg": "",
     "bg": "",
@@ -90,6 +93,12 @@ If you would like any trait to use the same as in `base`, you can use empty doub
 would mean that `identifiers` will be styled using the foreground colour, background colour, font and style specified in `base`.
 
 Once you have styles defined for all the keys you want, you can also add the keys `python`, `r`, and/or `c++` to specify language-specific styling. This will override the basic styling.
+
+### App and icons
+
+You may notice that the first keys in most spec files are `app` and then `icons` - these correspond to the Psychopy interface itself. For `app`, the value can be one of two options: `light` or `dark`, referring to the light and dark colour schemes currently available for Psychopy. For `icons`, there are three options: `light`, `dark`, or `classic`, referring to the three possible icon sets available.
+
+In time we hope to add functionality for users to contribute custom colour schemes and icon sets for the app, similar to how this repository.
 
 ## Editing an existing theme
 Only the original author of a theme can edit it, as our bot will check the username on any pull requests against the `authent.txt` file of any folders changed. However, you can make changes to any of your themes by just creating a branch of changes and then submitting a pull request, just like you will have when creating a theme. If you wish to edit someone else's theme, you will need to ask them to add your username to their `authent.txt` file, or create a new theme based on theirs and submit it yourself. If you created a file and now cannot get access, please contact todd.parsons@nottingham.ac.uk.
