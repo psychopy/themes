@@ -4,7 +4,7 @@
   "base": {
     "fg": "#000000",
     "bg": "#f2f2f3",
-    "font": "Consolas"
+    "font": ""
   },
   "margin": {
     "fg": "#FFFFFF",
@@ -39,12 +39,12 @@
   "keyword": {
     "fg": "#f4794a",
     "bg": "",
-    "font": "Consolas,bold"
+    "font": "bold"
   },
   "keyword2": {
     "fg": "#f4794a",
     "bg": "",
-    "font": "Consolas,italic,bold"
+    "font": ["italic","bold"]
   },
   "controlchar": {
     "fg": "#f4794a",
@@ -89,7 +89,7 @@
   "decorator": {
     "fg": "",
     "bg": "",
-    "font": "Consolas,bold"
+    "font": "bold"
   },
   "class": {
     "fg": "",

@@ -4,7 +4,7 @@
   "base": {
     "fg": "#747369",
     "bg": "#393939",
-    "font": "Consolas"
+    "font": ""
   },
   "margin": {
     "fg": "#ABB2BF",
@@ -104,7 +104,7 @@
   "comment": {
     "fg": "#5C6370",
     "bg": "",
-    "font": "Consolas,italic"
+    "font": "italic"
   },
   "commentblock": {
     "fg": "#",
