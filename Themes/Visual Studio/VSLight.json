@@ -1,6 +1,7 @@
 {
   "app": "light",
   "icons": "light",
+  "info": "Light theme based on Microsoft's Visual Studio editor",
   "base": {
     "fg": "#000000",
     "bg": "#FFFFFF",

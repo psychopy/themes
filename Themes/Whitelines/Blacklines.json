@@ -1,6 +1,7 @@
 {
   "app": "dark",
   "icons": "dark",
+  "info": "Modelled after Whitelines notebooks, uses black markers against an offblack background",
   "base": {
     "fg": "#FFFFFF",
     "bg": "#242425",

@@ -3,11 +3,9 @@
 Themes in Psychopy are defined using a `json` file, when the editor in Coder view or the output windows in Runner view style their text, they look in this `json` file to choose what colours, fonts and styles each different type of text object sould be.
 
 # Downloading and installing a theme
-The `json` files defining each theme are stored in a folder called `themes`, within your user preferences folder, so you can add a new theme to Psychopy by copying the relevant `json` file to there. The location of this folder may differ depending on your setup, but most often it is in:
-`C:\Users\[YOUR LOGIN NAME]\AppData\Roaming\psychopy3`
-The folder `AppData` is usually hidden, so make sure your file browser is set up to be able to view hidden folders and files.
+The `json` files defining each theme are stored in a folder called `themes`, within your user preferences folder, so you can add a new theme to Psychopy by copying the relevant `json` file to there. You can access this folder through the `View` menu in Psychopy, go to `View -> Themes -> Open Themes Folder`
 
-Once you have copied the `.json` file into there, provided it is a valid theme, it should appear in both the `View -> Themes...` menu and under `theme` in `Preferences` when you next open Psychopy.
+Once you have copied the `.json` file into there, provided it is a valid theme, it should appear in both the `View -> Themes` menu and under `theme` in `Preferences` when you next open Psychopy.
 
 # Contributing
 Psychopy is an open source tool, so we welcome contributions to all parts of the software, including coder themes! To contribute:
@@ -100,5 +98,14 @@ You may notice that the first keys in most spec files are `app` and then `icons`
 
 In time we hope to add functionality for users to contribute custom colour schemes and icon sets for the app, similar to how this repository.
 
+### Tooltip
+
+When themes are hovered over in the Theme menu, some will display text in the status bar explaining what the theme is. This text can be set in the `.json` file for a theme, via the field "info". For example:
+
+```json
+"info": "High-contrast light theme for maximum visibility"
+```
+
 ## Editing an existing theme
+
 Only the original author of a theme can edit it, as our bot will check the username on any pull requests against the `authent.txt` file of any folders changed. However, you can make changes to any of your themes by just creating a branch of changes and then submitting a pull request, just like you will have when creating a theme. If you wish to edit someone else's theme, you will need to ask them to add your username to their `authent.txt` file, or create a new theme based on theirs and submit it yourself. If you created a file and now cannot get access, please contact todd.parsons@nottingham.ac.uk.

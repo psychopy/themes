@@ -1,6 +1,7 @@
 {
   "app": "dark",
   "icons": "dark",
+  "info": "Light theme based on Microsoft's Visual Studio editor",
   "base": {
     "fg": "#DCDCDC",
     "bg": "#1E1E1E",

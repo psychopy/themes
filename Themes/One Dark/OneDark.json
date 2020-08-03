@@ -1,6 +1,7 @@
 {
   "app": "dark",
   "icons": "dark",
+  "info": "Poular and colourful dark theme with a slightly brown background",
   "base": {
     "fg": "#747369",
     "bg": "#393939",

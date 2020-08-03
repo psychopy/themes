@@ -5,4 +5,8 @@ https://coolors.co/000000-66666e-acacb0-f2f2f2-f2545b-85ffc7-02a9ea-f1d302-ec970
 ## Minimal
 Similar to the Psychopy theme, but with fewer colours. This sacrifices the information given by the default theme's colours for a less busy look.
 ## Classic
-This theme is designed to look like pre-2020 Psychopy, using the "classic" icon set and, in the light theme, the same colours in Coder view as before the 2020 update.
+These themes are designed to look like pre-2020 Psychopy, using the "classic" icon set and, in the light theme, the same colours in Coder view as before the 2020 update.
+
+## Hi-Vis
+
+These themes are designed to match the Windows High Contrast setting, which makes colours easier to distinguish and does away with similar colours.

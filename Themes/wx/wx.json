@@ -1,6 +1,7 @@
 {
   "app": "dark",
   "icons": "classic",
+  "info": "Modelled on the default theme in wx code editors",
   "base": {
     "fg": "#000000",
     "bg": "#FFFFFF",
